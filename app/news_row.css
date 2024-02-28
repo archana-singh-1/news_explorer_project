@@ -1,0 +1,16 @@
+@media (min-width:1200px){
+    .container{
+        max-width: 940px;
+    }
+  }
+  
+.row{
+    margin-top: 35px;
+}
+
+.col-sm-12{
+    border: solid 1px black;
+    margin: 0px;
+    height: 408px;
+
+}

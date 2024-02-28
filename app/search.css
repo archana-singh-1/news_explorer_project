@@ -1,0 +1,29 @@
+.search_header{
+    text-align: center;
+    margin-bottom: 89px;
+    margin-top: 89px;
+}
+
+
+.search_input {
+    background-image:url('/serach.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    width:267px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3c3030;
+    padding-left: 40px;
+
+}
+
+button{
+    color:#FDFDFA;
+    width: 61px;
+    height: 60px;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 400;
+}
