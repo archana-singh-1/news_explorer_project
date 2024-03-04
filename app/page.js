@@ -8,6 +8,7 @@ let Page=()=>{
     <Header/>
     <div className="container">
       <Searach/>
+      <div className='top_news'>TOP NEWS FROM INDIA</div>
       <News_row/>
     </div>
     <Footer/>

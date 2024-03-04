@@ -19,6 +19,12 @@ span{
   margin-top: 1px;
 }
 
+.top_news{
+  font-size: 20px;
+  font-weight: 400;
+  color: #D02424;
+}
+
 @media (max-width:578px){
   span{
     font-size: 35.957px;

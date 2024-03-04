@@ -24,3 +24,17 @@
     width: 20px;
 }
 
+@media screen and (max-width: 576px) {
+    .footer {
+        margin-bottom: 50px; 
+    }
+
+    .borders {
+        margin-top: 59px;
+    }
+
+    .footer_text {
+        margin-top: 39px;
+    }
+}
+
