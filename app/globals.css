@@ -23,6 +23,7 @@ span{
   font-size: 20px;
   font-weight: 400;
   color: #D02424;
+  border: solid 1px black;
 }
 
 @media (max-width:578px){
