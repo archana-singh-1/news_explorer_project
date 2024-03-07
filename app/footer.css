@@ -1,40 +1,50 @@
 .footer{
-    margin-top: auto;
-    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
-.borders{
-    border: solid 1px #3C3030;
-    margin-top: 89px;
+.footer_line{
+    border: solid 1px #3C3030;;
 }
 .footer_text{
     text-align: center;
+    padding-top: 40px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 140%;
-    font-style: normal;
-    color: #3C3030;
-    margin-top: 59px;
-    margin-top: 59px;
+    font-family: "Inria Serif";
 }
 
-
-.footer_logo{
-    font-size: 16px;
-    width: 20px;
+.circle_img{
+    width: 8px;
+    padding-bottom: 3px;
 }
 
-@media screen and (max-width: 576px) {
-    .footer {
-        margin-bottom: 50px; 
-    }
+.footer-div{
+    text-align: center;
+    padding-top: 25px;
+}
+.circle-footer_img{
+    width: 8px;
+    padding-bottom: 3px;
 
-    .borders {
-        margin-top: 59px;
-    }
+}
 
+@media (max-width: 576px) {
     .footer_text {
-        margin-top: 39px;
+        display: none;
+    }
+
+    .footer-div {
+        display: block;
     }
 }
 
+@media (min-width: 577px) {
+    .footer_text {
+        display: block;
+    }
+
+    .footer-div {
+        display: none;
+    }
+}

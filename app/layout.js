@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut Antiqua"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inria Sans"></link>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iowan Old Style"></link>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iowan Inria Serif"></link>
       </body>
     </html>
   )

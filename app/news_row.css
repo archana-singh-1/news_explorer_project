@@ -6,12 +6,12 @@
   
 .row{
     margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 .col-sm-12{
     border: solid 1px black;
     margin: 0px;
-    height: 495px;
 
 }
 

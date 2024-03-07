@@ -2,12 +2,12 @@ let Header=()=>{
     return(
         <>
             <div className='header_row'>
-                <span>NewsAPI</span>
+                NewsAPI
                 <img src="Ellipse.png" alt="Logo" className="image" />
-                <span>Org</span>
+                Org
             </div>
-            <hr className="border_one"></hr>
-            <hr className="border_one"></hr>
+            <div className="border_one"></div>
+            <div className="border_one"></div>
         </>
     );
 }
