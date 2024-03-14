@@ -1,5 +1,6 @@
 .search_header{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 89px;
     margin-top: 89px;
 }
@@ -21,7 +22,6 @@
 button{
     color:#FDFDFA;
     width: 60px;
-    height: 61px;
     border: none;
     background-color: red;
     font-size: 20px;
