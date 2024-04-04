@@ -22,8 +22,6 @@ const article_data=[
         "url": "https://www.theverge.com/2024/1/26/24051509/samsung-galaxy-s24-china-launch-baidu-ernie-artificial-intelligence-ai",
         "urlToImage": "https://cdn.vox-cdn.com/thumbor/mA66TCD28d_9I5ZFnsRpsEvb5u8=/0x0:2000x1333/1200x628/filters:focal(1000x667:1001x668)/cdn.vox-cdn.com/uploads/chorus_asset/file/25230413/DSC06323_processed.jpg",
         "id":2
-        
-        
     },
             
     {
@@ -32,7 +30,6 @@ const article_data=[
         "url": "https://telecom.economictimes.indiatimes.com/news/devices/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says/107172242",
         "urlToImage": "https://etimg.etb2bimg.com/thumb/msid-107172242,imgsize-214216,width-1200,height=765,overlay-ettelecom/devices/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says.jpg",
         "id":3
-        
     },
             
     {
