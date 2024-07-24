@@ -17,7 +17,6 @@ const Page=()=>{
             this.title=title
             this.description=description
             this.url=url
-
         };
     };
 
@@ -37,10 +36,8 @@ const Page=()=>{
                     );
                     updateHeadlines.push(newHeadline);
                 });
-                setArticles(updateHeadlines);
-                
+                setArticles(updateHeadlines);               
             });
-
     },[]);
 
     const handleClick = (query) => {
@@ -63,14 +60,23 @@ const Page=()=>{
                 setArticles(updateArticals);
             });
     };
-    
-        
-
 
     let headingText='TOP NEWS FROM INDIA';
     if (searchQuery){
         headingText=`${searchQuery}`
-    }
+    };
+
+    let news_row='';
+
+    if (1<articles.length){
+        news_row=(
+            <>
+                <News_row article={articles[0]} article1={articles[1]} article2={articles[2]}/>
+                <News_row article={articles[3]} article1={articles[4]} article2={articles[5]}/>
+                <News_row article={articles[6]} article1={articles[7]} article2={articles[8]}/>
+            </>
+        );
+    };
 
     return (
         <>
@@ -78,20 +84,10 @@ const Page=()=>{
             <Search OnSearchQuery={handleClick} />
             <div className="container">
                 <h2 className='top_news'>{headingText}</h2>
-                
-                {0<articles.length &&(
-                    <>
-                        <News_row article={articles[0]} article1={articles[1]} article2={articles[2]} />
-                        <News_row article={articles[3]} article1={articles[4]} article2={articles[5]} />
-                        <News_row article={articles[6]} article1={articles[7]} article2={articles[8]} />
-                    </>
-                )};
-                
-                
+                {news_row}              
             </div>
             <Footer />
         </>
     );
-}
-
+};
 export default Page;
